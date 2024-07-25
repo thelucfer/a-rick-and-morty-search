@@ -40,7 +40,11 @@ export const Select = <T extends object>({
   const handleBlur = () => {
     if (shouldUpdateInput) return;
 
-    setShouldUpdateInput(true);
+    const timeout = setTimeout(() => {
+      setShouldUpdateInput(true);
+    }, 200);
+
+    return () => clearTimeout(timeout);
   };
 
   const handleFocus = () => {
