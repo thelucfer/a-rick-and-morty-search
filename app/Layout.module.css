@@ -1,0 +1,27 @@
+.header {
+  display: grid;
+  padding: 1rem;
+
+  background: linear-gradient(
+    to right,
+    var(--color-primary),
+    var(--color-secondary)
+  );
+}
+
+.footer {
+  display: flex;
+  gap: 0.25rem;
+  justify-content: center;
+
+  padding: 1rem;
+}
+
+.link {
+  color: var(--color-foreground);
+}
+
+.main {
+  display: grid;
+  place-items: center;
+}

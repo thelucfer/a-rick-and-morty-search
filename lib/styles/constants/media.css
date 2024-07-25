@@ -1,0 +1,4 @@
+@custom-media --media-s (max-width: 30em);
+@custom-media --media-m (min-width: 30em);
+@custom-media --media-l (min-width: 60em);
+@custom-media --media-xl (min-width: 90em);

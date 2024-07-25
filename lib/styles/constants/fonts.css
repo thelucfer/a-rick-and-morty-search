@@ -1,0 +1,20 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow:ital,wght@0,400;0,700;0,900;1,400&family=Fira+Sans:ital,wght@0,400;0,700;0,900;1,400;1,700;1,900&&family=Jetbrains+Mono:ital,wght@0,400;0,700;0,900;1,400;1,700;1,900&display=swap');
+
+:root {
+  --font-size-xs: 0.5rem;
+  --font-size-s: 0.75rem;
+  --font-size-base: 1rem;
+  --font-size-m: 1.25rem;
+  --font-size-l: 1.5rem;
+  --font-size-xl: 2rem;
+  --font-size-xxl: 3rem;
+  --font-size-xxxl: 4rem;
+
+  --font-weight-regular: 400;
+  --font-weight-bold: 700;
+  --font-weight-black: 900;
+
+  --font-barlow: 'Barlow', sans-serif;
+  --font-fira-sans: 'Fira Sans', sans-serif;
+  --font-jetbrains-mono: 'Jetbrains Mono', monospace;
+}

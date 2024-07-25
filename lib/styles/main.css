@@ -1,0 +1,42 @@
+@import "reset.css";
+@import "./constants/colors.css";
+@import "./constants/fonts.css";
+@import "./constants/shadows.css";
+
+/* body */
+body {
+  font-family: var(--font-barlow);
+
+  color: var(--color-foreground);
+  background: var(--color-background);
+
+  height: 100vh;
+  @supports (height: 100dvh) {
+    height: 100dvh;
+  }
+  display: grid;
+  grid-template-rows: auto 1fr auto;
+
+  font-size: var(--font-size-s);
+  @media (--media-m) {
+    font-size: var(--font-size-base);
+  }
+}
+
+/* scrollbar */
+::-webkit-scrollbar-track {
+  background-color: var(--color-background);
+}
+
+::-webkit-scrollbar {
+  width: 0.5rem;
+  background-color: var(--color-background);
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: var(--color-foreground);
+}
+
+::-webkit-scrollbar-button {
+  display: none;
+}

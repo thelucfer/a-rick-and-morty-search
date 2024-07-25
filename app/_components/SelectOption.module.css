@@ -1,0 +1,19 @@
+.optionListItem {
+  &:hover,
+  &[aria-selected="true"] {
+    background: var(--color-surface-variant);
+  }
+  padding: 0.5rem;
+  overflow-x: hidden;
+}
+
+.optionListButton {
+  background: transparent;
+
+  color: var(--color-foreground);
+
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  width: 100%;
+}

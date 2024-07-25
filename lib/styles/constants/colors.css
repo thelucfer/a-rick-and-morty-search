@@ -1,0 +1,30 @@
+:root {
+  --color-primary: hsl(238 70% 57%);
+  --color-primary-variant: hsl(238 70% 37%);
+
+  --color-secondary: hsl(358 70% 57%);
+  --color-secondary-variant: hsl(358 70% 77%);
+
+  --color-background: #0d0628;
+
+  --color-surface-variant: #2a0944;
+  --color-surface: #202030;
+
+  --color-foreground: #fdfdff;
+
+  --color-contrast: #ffbd00;
+  --color-constrast-variant: #ec9ded;
+
+  --color-background-gradient: linear-gradient(
+    180deg,
+    rgba(13, 6, 40, 1) 0%,
+    rgba(13, 6, 40, 1) 70%,
+    rgba(42, 9, 68, 1) 100%
+  );
+
+  --color-background-gradient-variant: linear-gradient(
+    180deg,
+    rgba(13, 6, 40, 1) 0%,
+    rgba(222, 69, 74, 1) 100%
+  );
+}
