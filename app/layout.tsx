@@ -29,7 +29,7 @@ const jetBrainsMono = JetBrains_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "Rings AI Coding Test",
+  title: "A Rick And Morty Search",
   description: "By Lucas C. Ferreira / lucfer.dev",
 };
 

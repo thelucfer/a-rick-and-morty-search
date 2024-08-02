@@ -1,5 +1,3 @@
-import { ChangeEvent } from "react";
-import { Select } from "./_components/Select";
 import { createApolloClient } from "@/apollo-client";
 import { gql } from "@apollo/client";
 import { Search } from "./_components/Search";
