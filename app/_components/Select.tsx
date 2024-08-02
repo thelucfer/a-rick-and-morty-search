@@ -107,10 +107,12 @@ export const Select = <T extends object>({
 
   useEffect(() => {
     if (!shouldUpdateInput) return;
-    if (!selectedOption) return;
     if (!inputRef.current) return;
 
-    onChange(getDisplayValue(selectedOption));
+    if (selectedOption) {
+      onChange(getDisplayValue(selectedOption));
+    }
+
     setShowOptions(false);
     setShouldUpdateInput(false);
   }, [getDisplayValue, onChange, selectedOption, shouldUpdateInput]);
@@ -124,6 +126,7 @@ export const Select = <T extends object>({
   return (
     <div className={styles.wrapper}>
       <input
+        type="text"
         className={styles.input}
         placeholder="Type to search..."
         onChange={(e) => onChange(e.target.value)}
